@@ -1,0 +1,147 @@
+body {
+    font-family: Avenir;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: right;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display:inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #9c9595;
+    transition: color 0.3s ease; 
+}
+
+nav ul li a:hover {
+    color: #d47575; /* Nuevo color al hacer hover */
+}
+
+footer {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    color: #c13434;
+    transition: display 0.3s ease-in-out;
+}
+
+h1 img {
+    max-width: 150px;
+    float: left;
+    margin-left: 20px;
+}
+
+.Inicio {
+    position: relative;
+    text-align: center;
+  }
+  
+  .texto-superpuesto {
+    position: absolute;
+    top: 70%; 
+    left: 55%; 
+    transform: translate(-100%, -100%); 
+    background-color: rgba(255, 255, 255, 0.8); /* Agrega un fondo semi-transparente */
+    padding: 90px;
+  }
+  
+  .texto-superpuesto h2,
+  .texto-superpuesto p {
+    margin: 0;
+    font-family: Avenir;
+    color: #504c4c; 
+  }
+  
+.Inicio img {
+    max-width: 100%; 
+  }
+  
+  .Acerca {
+    position: relative; 
+    text-align:justify;
+  }
+  
+  .texto-superpuesto2 {
+    position:absolute;
+    top: 35%; 
+    left: 50%;
+    background-color: rgba(77, 72, 72, 0.8); 
+    transform: translate(-50%, -50%);
+    padding: 60px;
+  }
+  
+  .texto-superpuesto2 h2,
+  .texto-superpuesto2 p {
+    margin: 0;
+    font-family: Avenir;
+    font-size: medium;
+    color: #ffffff; 
+  }
+
+  .Acerca img {
+    max-width: 100%; 
+  }
+
+.Menus {
+    position: relative; 
+    text-align: center;
+  }
+
+  .esquina {
+    position: relative;
+    bottom: 155px;
+    left: 100px;
+    background-color: #c13434;
+    color: #ffffff;
+    padding: 90px 100px;
+    text-decoration: none;
+    font-weight: avenir;
+    font-size: large;
+} 
+
+.Menus img {
+    max-width: 100%; 
+  }
+
+
+
+
+section h2, section p{
+    color: #ffffff;
+    text-align: center;
+    font-family: avenir;
+    font-size:larger;
+}
+
+section {
+    margin: 50px;
+    padding: 100px;
+    background-color: #000000;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.esquina2 {
+    position: relative;
+    background-color: #3a3838;
+    color: #ffffff;
+    padding: 30px 20px;
+    text-decoration: none;
+    font-weight: avenir;
+    font-size: medium;
+    
+} 
